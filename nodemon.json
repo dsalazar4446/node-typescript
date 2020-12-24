@@ -1,0 +1,6 @@
+{
+    "watch": ["src"],
+    "ext": "ts,html,css",
+    "ignore": ["src/**/*.spec.ts"],
+    "exec": "tsc && copyfiles --up 1 src/public/*.html dist && node dist/index"
+}
